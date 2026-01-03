@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "2.0",
+  "accountId": "123456789012",
+  "region": "eu-south-1",
+  "partition": "aws",
+  "id": "e85fabe6bf5443218567215234567890",
+  "type": "Backdoor:EC2/C&CActivity.B!",
+  "service": {
+    "serviceName": "guardduty",
+    "detectorId": "12345678901234567890123456789012",
+    "action": {
+      "actionType": "NETWORK_CONNECTION",
+      "networkConnectionAction": {
+        "connectionDirection": "OUTBOUND",
+        "remoteIpDetails": {
+          "ipAddressV4": "198.51.100.0",
+          "organization": {
+            "isp": "Bad ISP",
+            "org": "Bad Actor Corp"
+          },
+          "country": {
+            "countryName": "United States"
+          },
+          "city": {
+            "cityName": "Nowhere"
+          }
+        },
+        "localPortDetails": {
+          "port": 22,
+          "portName": "SSH"
+        }
+      }
+    }
+  },
+  "severity": 8.0,
+  "title": "EC2 instance is communicating with a known command and control server."
+}
