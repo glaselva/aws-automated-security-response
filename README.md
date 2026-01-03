@@ -6,14 +6,14 @@
 
 ## 📸 Screenshots
 
-### 1. Lambda Function
-![Lambda Function](screenshots/lambda_function.png)
+### 1. Event Payload
+![Event Payload](screenshots/01-event-payload.png)
 
-### 2. Event Pattern
-![Event Pattern](screenshots/event_pattern.png)
+### 2. Lambda Code
+![Lambda Code](screenshots/02-labmda-code.png)
 
-### 3. Test Payload
-![Test Payload](screenshots/test_payload.png)
+### 3. Email Alert
+![Email Alert](screenshots/03-email-alert.png)
 
 ## 🇮🇹 Versione Italiana
 
